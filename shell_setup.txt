@@ -13,3 +13,6 @@ sudo ./aws/install
 
 Set default text editor to vim:
 /usr/bin/select-editor
+
+Set default text editor used with git to vim:
+git config --global core.editor "vim"
