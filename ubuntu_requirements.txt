@@ -2,4 +2,6 @@ neofetch
 htop
 vim
 oh-my-zsh
-zsh?
+zsh
+python3-pip
+unzip
