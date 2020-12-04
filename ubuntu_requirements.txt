@@ -1,0 +1,5 @@
+neofetch
+htop
+vim
+oh-my-zsh
+zsh?
