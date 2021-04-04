@@ -5,3 +5,4 @@ oh-my-zsh
 zsh
 python3-pip
 unzip
+speedtest-cli
