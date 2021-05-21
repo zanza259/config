@@ -3,6 +3,10 @@ sudo apt-get install zsh
 
 Install oh-my-zsh:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+(May have issues with large git repos due to using the git_prompt_info() and parse_git_dirty() functions in lib/git.zsh, can resolve with below)
+git config --add oh-my-zsh.hide-status 1
+git config --add oh-my-zsh.hide-dirty 1
+
 
 Install agnoster theme:
 

@@ -1,0 +1,6 @@
+/mnt/c/Users/zanza/Documents
+/mnt/c/Users/zanza/Downloads
+/mnt/c/Users/zanza/Pictures
+/mnt/c/Users/zanza/Music
+/mnt/c/Users/zanza/Videos
+/mnt/f/Users
