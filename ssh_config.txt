@@ -1,0 +1,8 @@
+# generate new ssh key
+ssh-keygen -t ed25519 -C "tesla259@gmail.com"
+
+# start up ssh agent in background
+eval "$(ssh-agent -s)"
+
+# add created ssh key to ssh-agent
+ssh-add ~/.ssh/id_ed25519

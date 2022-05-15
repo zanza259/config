@@ -1,0 +1,5 @@
+# Install config manager
+curl https://download.argon40.com/argoneon.sh | bash
+
+# run config manager
+argon-config

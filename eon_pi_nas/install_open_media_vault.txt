@@ -1,0 +1,4 @@
+# Prereq - Install Raspbian Lite 32-bit (has to be lite version)
+
+# Run single script installer
+wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | sudo bash
