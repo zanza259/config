@@ -1,0 +1,6 @@
+For Raspberry Pi 4b:
+- Run `rpi-update` on first load to perform a full system upgrade.
+- Check `sudo rpi-eeprom-update` to see if the firmware needs update.
+- `sudo rpi-eeprom-update -a` runs the firmware updater, had some issues with the full update / upgrade getting things working acs intended.
+
+- `pihole -a -p` changes pihole password.

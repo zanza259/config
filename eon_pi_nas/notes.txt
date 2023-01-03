@@ -1,0 +1,7 @@
+- OMV will reset the network interface on install, raspi-config will *not* be able to access or modify the wifi network connection.
+- Run `omv-firstaid` to update the network configuration.
+
+For Raspberry Pi 4b:
+- Run `rpi-update` on first load to perform a full system upgrade.
+- Check `sudo rpi-eeprom-update` to see if the firmware needs update.
+- `sudo rpi-eeprom-update -a` runs the firmware updater, had some issues with the full update / upgrade getting things working acs intended.
